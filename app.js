@@ -24,7 +24,7 @@ var appController = (function(uiController,financeController){
     });
 
     document.addEventListener('keypress',function(event){
-       
+    
         if(event.keyCode === 13 || event.which === 13) {
             ctrlAddItem();
         }
